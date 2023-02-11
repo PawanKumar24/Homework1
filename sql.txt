@@ -1,0 +1,16 @@
+create database uoh;
+use uoh;
+
+
+create table covidcases(
+
+id int not null auto_increment,
+countryname varchar(50) not null,
+year varchar(50) not null,
+totalcases varchar(50) not null,
+deaths varchar(50) not null,
+recovered varchar(50) not null,
+primary key(id)
+
+);
+select * from covidcases;
